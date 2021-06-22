@@ -1,0 +1,61 @@
+.completed {
+  text-decoration: line-through;
+}
+.todos-container {
+  margin: 0 auto;
+  max-width: 900px;
+}
+.heading {
+  text-align: center;
+}
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button:not(:last-child) {
+  margin-right: 6px;
+}
+.button-all {
+  margin-left: 10px;
+}
+.button {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+.add-todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.add-todo-input {
+  width: 300px;
+  height: 25px;
+  padding: 3px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.button-add-todo {
+  height: 35px;
+}
+.todos {
+
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  /*flex-direction: column;*/
+}
+.todo-item-container {
+  display: flex;
+}
+.todo-item-container:not(:last-child) {
+  margin-bottom: 10px;
+}
+.todo-item {
+  align-self: center;
+  margin-right: 10px;
+  list-style-type: none;
+  font-size: 18px;
+}
